@@ -17,6 +17,7 @@ export default function index() {
     <>
       <h2>Preview</h2>
       <div>
+        <img src={selecioando.imagem} alt="" />
         <h2>{selecioando.name}</h2>
         <p>{selecioando.preco}</p>
         <p>{selecioando.id}</p>

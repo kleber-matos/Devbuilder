@@ -1,15 +1,18 @@
 import * as S from "./styled";
 import { Link } from "react-router-dom";
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 
 import Logo from "../../assets/Logo.png";
 
 import { FiMenu } from "react-icons/fi";
 import { IoClose } from "react-icons/io5";
 import { FaSearch, FaShoppingBag, FaHeart } from "react-icons/fa";
+import { CartContext } from "../../Context/CartContext";
 
 const Header = () => {
   //
+  const { setBusca, busca } = useContext(CartContext);
+
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -35,8 +38,15 @@ const Header = () => {
 
         <S.Menu $isOpen={isOpen}>
           <li className="seach">
-            <input type="text" placeholder="Buscar..." />
-            <FaSearch className="lupa" />
+            <Link to="/busca">
+              <input
+                onChange={(e) => setBusca(e.target.value)}
+                value={busca}
+                type="text"
+                placeholder="Buscar..."
+              />
+              <FaSearch className="lupa" />
+            </Link>
           </li>
           <li>
             <Link to="/">

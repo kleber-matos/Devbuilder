@@ -5,7 +5,7 @@ export const Footer = styled.footer`
   color: white;
 
   section {
-    height: 14vh;
+    height: 19vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

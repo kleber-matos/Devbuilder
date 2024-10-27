@@ -4,34 +4,278 @@
     "preco": 76.99,
     "description": "Precisa de um boost de energia tanto no código quanto no treino? A Creatina DevFuel é a escolha ideal! Seja para otimizar sua performance na academia ou para encarar aquele sprint final do projeto, a creatina vai te ajudar a aumentar o foco e a força. Mantenha o corpo e o cérebro sempre prontos para o próximo desafio. Codifique com mais intensidade, treine com mais potência!",
     "id": 0,
-    "imagem": "https://cdn.awsli.com.br/2500x2500/49/49309/produto/231442297/creatina-i27guiin0r.png"
+    "imagem": "https://cdn.awsli.com.br/2500x2500/49/49309/produto/231442297/creatina-i27guiin0r.png",
+    "categoria": "destaque",
+    "palavraChave": "suplemento energia creatina academia Codifique com mais intensidade, treine com mais potência!"
   },
   {
     "name": "CodeWhey: a proteína que alimenta seu corpo e sua mente!",
     "preco": 46.59,
-    "description": "O melhor",
+    "description": "Alimente seu corpo e seu código com essa proteína de qualidade. CodeWhey é o combustível que você precisa para manter a energia na academia e no escritório!",
     "id": 1,
-    "imagem": "https://images.tcdn.com.br/img/img_prod/1304890/100_whey_protein_900g_1107_1_3df744e481e3bfac43e9f2ffe6fd79ef.png"
+    "imagem": "https://images.tcdn.com.br/img/img_prod/1304890/100_whey_protein_900g_1107_1_3df744e481e3bfac43e9f2ffe6fd79ef.png",
+    "categoria": "destaque",
+    "palavraChave": "proteína whey suplemento fitness energia CodeWhey: a proteína que alimenta seu corpo e sua mente!"
   },
   {
-    "name": "Caixa da Inteligência:  Abra sua caixa e dê as boas-vindas ao React!",
+    "name": "Caixa da Inteligência: Abra sua caixa e dê as boas-vindas ao React!",
     "preco": 10.19,
-    "description": "O melhor",
+    "description": "Uma caixa para armazenar todas as suas ferramentas de treino e desenvolvimento. Ideal para quem quer praticidade no dia a dia.",
     "id": 2,
-    "imagem": "https://tangerin.vteximg.com.br/arquivos/ids/162566-412-412/Caixa-de-Papelao-N7---20-x-15-x-15-semfundo.png?v=638161206874470000"
+    "imagem": "https://tangerin.vteximg.com.br/arquivos/ids/162566-412-412/Caixa-de-Papelao-N7---20-x-15-x-15-semfundo.png?v=638161206874470000",
+    "categoria": "destaque",
+    "palavraChave": "caixa organização React ferramentas Caixa da Inteligência: Abra sua caixa e dê as boas-vindas ao React!"
   },
   {
     "name": "YoPro Dev: a proteína oficial para quem codifica e constrói o próprio futuro!",
     "preco": 18.09,
-    "description": "O melhor",
+    "description": "Proteína para quem leva a sério tanto o código quanto a nutrição. YoPro Dev é a escolha ideal para um corpo e mente fortes!",
     "id": 3,
-    "imagem": "https://phygital-files.mercafacil.com/supermercado-real-de-niteroi/uploads/produto/iogurte_danone_yopro_pouch_160g_acai_banana_01e12220-fb99-459c-8518-226fc75290ec.png"
+    "imagem": "https://phygital-files.mercafacil.com/supermercado-real-de-niteroi/uploads/produto/iogurte_danone_yopro_pouch_160g_acai_banana_01e12220-fb99-459c-8518-226fc75290ec.png",
+    "categoria": "destaque",
+    "palavraChave": "iogurte proteína nutrição YoPro Dev: a proteína oficial para quem codifica e constrói o próprio futuro!"
   },
   {
     "name": "Par de Halter Emborrachado - 5kg Consport",
     "preco": 189.09,
-    "description": "O melhor",
+    "description": "O companheiro ideal para um desenvolvedor em movimento. Pratique seus treinos enquanto aguarda o código compilar.",
     "id": 4,
-    "imagem": "https://0201.nccdn.net/1_2/000/000/177/5a1/peso-de-academia-png-2-263x193.png"
+    "imagem": "https://0201.nccdn.net/1_2/000/000/177/5a1/peso-de-academia-png-2-263x193.png",
+    "categoria": "destaque",
+    "palavraChave": "halter peso musculação academia Par de Halter Emborrachado - 5kg Consport"
+  },
+  {
+    "name": "Focus Energy Drink para Devs",
+    "preco": 12.49,
+    "description": "Uma bebida energizante para manter você ligado tanto no treino quanto no projeto. Code Focus para energia intensa!",
+    "id": 5,
+    "imagem": "https://phygital-files.mercafacil.com/figurasupermercado/uploads/produto/energetico_opa_power_350ml_92b07f76-1d0c-45a5-be58-ac9a84565a65.jpg",
+    "categoria": "novidades",
+    "palavraChave": "bebida energética energia foco Focus Energy Drink para Devs"
+  },
+  {
+    "name": "Coders Aminos: Recuperação e Performance!",
+    "preco": 34.99,
+    "description": "Aminoácidos essenciais para a recuperação muscular e mental, ideais para desenvolvedores que querem mais disposição em todas as fases do projeto.",
+    "id": 6,
+    "imagem": "https://clinoage.com.br/images/uploads/posts/1727438293mockup---produtos-pre-treino-limonada-sui%C3%A7a.png",
+    "categoria": "suplementos",
+    "palavraChave": "aminoácidos recuperação desempenho Coders Aminos: Recuperação e Performance!"
+  },
+  {
+    "name": "Power Resistance Band para Desenvolvedores",
+    "preco": 24.29,
+    "description": "Fortaleça seus músculos enquanto desenvolve suas habilidades de codificação. Leve, prática e ideal para treinos rápidos!",
+    "id": 7,
+    "imagem": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/MP21118/ceedb8c3-489b-4147-88cf-7af603631123-curly-care-spume-shampoo-suave-1-litro.png",
+    "categoria": "acessorios",
+    "palavraChave": "faixa resistência treino Power Resistance Band para Desenvolvedores"
+  },
+  {
+    "name": "UltraDev BCAA: Suporte para Músculos e Código!",
+    "preco": 29.9,
+    "description": "Para força e recuperação, UltraDev BCAA garante que seu corpo e mente estejam sempre prontos para o próximo sprint de código ou treino.",
+    "id": 8,
+    "imagem": "https://www.origym.com.br/produtos/ACESSORIOS-DE-MUSCULACAO/suporte-para-apoio-de-barra-de-120-biceps-618800.png",
+    "categoria": "suplementos",
+    "palavraChave": "BCAA recuperação força UltraDev BCAA: Suporte para Músculos e Código!"
+  },
+  {
+    "name": "CodeCruncher: Barrinha de Proteína para Devs",
+    "preco": 5.79,
+    "description": "Barrinha proteica que cabe em qualquer rotina de codificação. Ideal para lanches rápidos durante o projeto.",
+    "id": 9,
+    "imagem": "https://www.saobraz.com.br/files/product/16817722080493-produto1.png",
+    "categoria": "novidades",
+    "palavraChave": "barrinha proteína lanche CodeCruncher: Barrinha de Proteína para Devs"
+  },
+  {
+    "name": "MindFlex Mat para Desenvolvedores Fitness",
+    "preco": 45.0,
+    "description": "Um tapete de yoga confortável para exercícios de alongamento ou para momentos de brainstorm. Leve o MindFlex para onde for!",
+    "id": 10,
+    "imagem": "https://d5gag3xtge2og.cloudfront.net/producao/34396955/G/img_1925_removebg_preview.png",
+    "categoria": "novidades",
+    "palavraChave": "tapete yoga conforto MindFlex Mat para Desenvolvedores Fitness"
+  },
+  {
+    "name": "Protein DevPack: Pacote Completo para o Desenvolvedor Fitness",
+    "preco": 150.0,
+    "description": "Um pacote com proteínas, BCAA e energizantes, ideal para desenvolvedores que buscam performance máxima.",
+    "id": 11,
+    "imagem": "https://giassi.vtexassets.com/arquivos/ids/2756512/Proteina-Texturizada-de-Soja-Media-Integral-Jasmine-Pacote-250g.png?v=638627536602330000",
+    "categoria": "suplementos",
+    "palavraChave": "proteína BCAA energizante Protein DevPack: Pacote Completo para o Desenvolvedor Fitness"
+  },
+  {
+    "name": "DeskFlex Dumbbells - 3kg",
+    "preco": 90.5,
+    "description": "Halteres de 3kg para aquele treino rápido entre uma linha de código e outra.",
+    "id": 12,
+    "imagem": "https://go3fit.com.br/wp-content/uploads/2019/03/training-12kg-300x300.png",
+    "categoria": "acessorios",
+    "palavraChave": "halter peso musculação DeskFlex Dumbbells - 3kg"
+  },
+  {
+    "name": "FitDev Shake: Energia para Corpo e Mente",
+    "preco": 22.9,
+    "description": "Shake proteico com ingredientes energéticos, ideal para manter o foco e o corpo ativo durante o trabalho.",
+    "id": 13,
+    "imagem": "https://cdn.awsli.com.br/1237/1237734/arquivos/academia-mob-Bn.png",
+    "categoria": "suplementos",
+    "palavraChave": "shake proteína energia FitDev Shake: Energia para Corpo e Mente"
+  },
+  {
+    "name": "Dev Protein Bar: a escolha ideal para lanches saudáveis!",
+    "preco": 9.99,
+    "description": "Perfeita para devs que precisam de um lanche rápido e nutritivo. Com sabor delicioso e ingredientes saudáveis.",
+    "id": 14,
+    "imagem": "https://www.nestle-cereals.com/pt/sites/g/files/qirczx881/files/2022-11/BarraFitnessChoco.png",
+    "categoria": "novidades",
+    "palavraChave": "barrinha proteína saudável Dev Protein Bar: a escolha ideal para lanches saudáveis!"
+  },
+  {
+    "name": "Focus Drink: Hidratante e Energizante!",
+    "preco": 6.99,
+    "description": "Uma bebida refrescante que combina hidratação com energia para te manter ativo no código e no treino.",
+    "id": 15,
+    "imagem": "https://nutrifysaude.vtexassets.com/arquivos/ids/158008/FOTO_COLLAGEN_COLLAGEN_DRINK_PINEAPPLE_DESK.png?v=638483521476570000",
+    "categoria": "novidades",
+    "palavraChave": "bebida energética hidratação Focus Drink: Hidratante e Energizante!"
+  },
+  {
+    "name": "Protein Oats: Aveia Proteica para o Dia a Dia!",
+    "preco": 14.99,
+    "description": "Aveia enriquecida com proteína para um café da manhã saudável e nutritivo, perfeita para devs em movimento.",
+    "id": 16,
+    "imagem": "https://www.ecolojarg.com.br/wdframe//index.php?type=img&id=Mzg0",
+    "categoria": "novidades",
+    "palavraChave": "aveia proteína café da manhã Protein Oats: Aveia Proteica para o Dia a Dia!"
+  },
+  {
+    "name": "Hydro Flask para Devs: Mantenha-se Hidratado!",
+    "preco": 39.99,
+    "description": "Garrafa de água que mantém sua bebida gelada por horas, ideal para o escritório ou a academia.",
+    "id": 17,
+    "imagem": "https://img.ltwebstatic.com/images3_spmp/2023/12/14/cc/1702564779cee169b6b3fe765ac72b030f5fb83d7a.png",
+    "categoria": "acessorios",
+    "palavraChave": "garrafa hidratação Hydro Flask para Devs: Mantenha-se Hidratado!"
+  },
+  {
+    "name": "DevSnack Mix: Mix de Frutas e Nozes!",
+    "preco": 12.0,
+    "description": "Um mix nutritivo de frutas e nozes, perfeito para aquele lanche entre o código e a malhação.",
+    "id": 18,
+    "imagem": "https://acdn.mitiendanube.com/stores/001/780/869/products/mix-de-frutas-intenso-26685ab8d75b0670fb17223603912117-1024-1024.png",
+    "categoria": "novidades",
+    "palavraChave": "lanche mix frutas nozes DevSnack Mix: Mix de Frutas e Nozes!"
+  },
+  {
+    "name": "Yoga Mat para Codificadores",
+    "preco": 45.0,
+    "description": "Um tapete para yoga que se adapta à sua rotina de codificação e relaxamento.",
+    "id": 19,
+    "imagem": "https://www.paranautilidades.com.br/image/cache/catalog/22-09/22-09x2/foto-do-Colchonete-Academia-100x50-Cm-500x500.png",
+    "categoria": "acessorios",
+    "palavraChave": "tapete yoga conforto Yoga Mat para Codificadores"
+  },
+  {
+    "name": "Speedy Protein: Rápido e Delicioso!",
+    "preco": 25.99,
+    "description": "Proteína em pó com sabor incrível, fácil de misturar e perfeita para lanches rápidos.",
+    "id": 20,
+    "imagem": "https://conteudo.imguol.com.br/c/entretenimento/2a/2020/11/17/suplemento-de-proteina-whey-protein-albumina-1605643174293_v2_4x3.jpg",
+    "categoria": "suplementos",
+    "palavraChave": "proteína rápida Speedy Protein: Rápido e Delicioso!"
+  },
+  {
+    "name": "Camiseta FitDev: Estilo e Conforto para os Coders!",
+    "preco": 39.99,
+    "description": "Camiseta estilosa que combina conforto e funcionalidade, ideal para treinos e codificação.",
+    "id": 21,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_634819-MLB53381294121_012023-O.webp",
+    "categoria": "acessorios",
+    "palavraChave": "camiseta conforto estilo Camiseta FitDev: Estilo e Conforto para os Coders!"
+  },
+  {
+    "name": "DevEnergy Snack: Lanches Nutritivos para o Dia a Dia!",
+    "preco": 10.5,
+    "description": "Snacks saudáveis e saborosos para te manter energizado durante a rotina intensa.",
+    "id": 22,
+    "imagem": "https://acdn.mitiendanube.com/stores/001/234/507/products/whatsapp-image-2020-11-10-at-14-16-031-cabf1a38233f3de59c16062523990546-640-0.jpeg",
+    "categoria": "novidades",
+    "palavraChave": "snack saudável energia DevEnergy Snack: Lanches Nutritivos para o Dia a Dia!"
+  },
+  {
+    "name": "Dumbbell Rack: Organização e Estilo para a Academia!",
+    "preco": 129.0,
+    "description": "Um suporte prático e elegante para organizar seus halteres e otimizar o espaço da academia.",
+    "id": 23,
+    "imagem": "https://img.irroba.com.br/fit-in/600x600/filters:fill(fff):quality(80)/equipame/catalog/2022/suporte-puxadores/suporte-de-parede-para-puxadores-crossover-academia.jpeg",
+    "categoria": "acessorios",
+    "palavraChave": "suporte halteres organização Dumbbell Rack: Organização e Estilo para a Academia!"
+  },
+  {
+    "name": "Caffeine Dev: O Café Ideal para Mentes Criativas!",
+    "preco": 29.99,
+    "description": "Café de alta qualidade que ajuda a manter a concentração e a criatividade em alta.",
+    "id": 24,
+    "imagem": "https://www.nescafe.com/br/sites/default/files/2023-08/Nes_Web3_Article_Header_FindYourFix_1448x1240.png",
+    "categoria": "novidades",
+    "palavraChave": "café concentração criatividade Caffeine Dev: O Café Ideal para Mentes Criativas!"
+  },
+  {
+    "name": "Protein Pancakes: Panquecas Proteicas para um Café da Manhã Saudável!",
+    "preco": 18.0,
+    "description": "Panquecas ricas em proteína, perfeitas para um café da manhã nutritivo e delicioso.",
+    "id": 25,
+    "imagem": "https://mrcheney.com.br/wp-content/uploads/2016/03/American-Pancakes.png",
+    "categoria": "novidades",
+    "palavraChave": "panquecas proteína café da manhã Protein Pancakes: Panquecas Proteicas para um Café da Manhã Saudável!"
+  },
+  {
+    "name": "Active Recovery: Gel de Recuperação Muscular!",
+    "preco": 23.49,
+    "description": "Gel para ajudar na recuperação muscular após treinos intensos, mantendo você pronto para codificar novamente.",
+    "id": 26,
+    "imagem": "https://cdn.awsli.com.br/600x1000/1689/1689661/produto/2482058251227e3897f.jpg",
+    "categoria": "suplementos",
+    "palavraChave": "gel recuperação muscular Active Recovery: Gel de Recuperação Muscular!"
+  },
+  {
+    "name": "Mug Motivacional: Para os Desenvolvedores que Amam Café!",
+    "preco": 19.99,
+    "description": "Caneca motivacional para te inspirar enquanto toma seu café e trabalha no código.",
+    "id": 27,
+    "imagem": "https://cdn.awsli.com.br/600x450/238/238483/produto/46949036/0588180f94.jpg",
+    "categoria": "acessorios",
+    "palavraChave": "caneca café motivação Mug Motivacional: Para os Desenvolvedores que Amam Café!"
+  },
+  {
+    "name": "TechFit Jump Rope: Para Treinos Eficazes!",
+    "preco": 35.0,
+    "description": "Corda de pular leve e resistente, perfeita para treinos de alta intensidade.",
+    "id": 28,
+    "imagem": "https://aesportiva.vteximg.com.br/arquivos/ids/235907-1000-1000/1_000722_0004.jpg?v=636280753621300000",
+    "categoria": "acessorios",
+    "palavraChave": "corda pular treino TechFit Jump Rope: Para Treinos Eficazes!"
+  },
+  {
+    "name": "DevSweat Towel: Toalha para o Desenvolvedor Fitness!",
+    "preco": 15.99,
+    "description": "Toalha de treino compacta e super absorvente, ideal para a academia e para o escritório.",
+    "id": 29,
+    "imagem": "https://static.lclhome.com.br/public/lcl/imagens/produtos/toalha-de-banho-g-plain-1-00-x-1-50-boss-home-concreto-66684a8fa3b72.png",
+    "categoria": "acessorios",
+    "palavraChave": "toalha treino absorvente DevSweat Towel: Toalha para o Desenvolvedor Fitness!"
+  },
+  {
+    "name": "Motivational Workout Playlist: A Trilha Sonora para seus Treinos!",
+    "preco": 0.0,
+    "description": "Playlist personalizada para acompanhar seus treinos, com músicas motivacionais.",
+    "id": 30,
+    "imagem": "https://www.discmidia.com.br/wp-content/uploads/2019/09/pendrives-persnalizados-discmidia.png.webp",
+    "categoria": "novidades",
+    "palavraChave": "playlist motivacional treino Motivational Workout Playlist: A Trilha Sonora para seus Treinos!"
   }
 ]

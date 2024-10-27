@@ -1,19 +1,16 @@
-import Data from "../../data/data.json";
-import { Link } from "react-router-dom";
-import Categorias from "../../components/Categorias";
-import Banner from "../../components/Banner";
-import Card from "../../components/Card";
-import Ofertas from "../../components/Ofertas";
+import React from "react";
 import * as S from "./styled";
+import Header from "../../components/Header";
+import Categorias from "../../components/Categorias";
+import Card from "../../components/Card";
+import Data from "../../data/data.json";
 import Footer from "../../components/Footer";
 
 export default function index() {
-  const destaques = Data.filter((e) => e.categoria == "destaque");
-
+  const destaques = Data.filter((e) => e.categoria == "acessorios");
   return (
     <>
       <Categorias />
-      <Banner />
       <S.Produtos>
         <div className="box">
           {destaques.map((e, id) => (
@@ -21,8 +18,6 @@ export default function index() {
           ))}
         </div>
       </S.Produtos>
-
-      <Ofertas />
 
       <Footer />
     </>

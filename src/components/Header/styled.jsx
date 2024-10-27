@@ -62,6 +62,14 @@ export const Menu = styled.ul`
     background-color: white;
     justify-content: space-between;
 
+    a {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #5e5e5e;
+    }
+
     input {
       border: none;
       padding-left: 15px;

@@ -23,8 +23,13 @@ export const Section = styled.section`
     }
   }
 
-  li {
+  a {
     font-family: "Racing Sans One", serif;
     cursor: pointer;
+    color: black;
+  }
+
+  .none {
+    cursor: not-allowed;
   }
 `;
