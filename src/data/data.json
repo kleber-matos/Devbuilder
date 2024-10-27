@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Miojo",
+    "preco": 76.99,
+    "description": "O melhor",
+    "id": 0
+  },
+  {
+    "name": "Suco de uva",
+    "preco": 16.99,
+    "description": "O melhor",
+    "id": 1
+  },
+  {
+    "name": "Caldo verde",
+    "preco": 10.99,
+    "description": "O melhor",
+    "id": 2
+  },
+  {
+    "name": "Bolo",
+    "preco": 18.09,
+    "description": "O melhor",
+    "id": 3
+  },
+  {
+    "name": "Pão",
+    "preco": 0.99,
+    "description": "O melhor",
+    "id": 4
+  },
+  {
+    "name": "Cafe",
+    "preco": 2.69,
+    "description": "O melhor",
+    "id": 5
+  }
+]
