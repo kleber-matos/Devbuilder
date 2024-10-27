@@ -1,38 +1,37 @@
 [
   {
-    "name": "Miojo",
+    "name": "Codifique com mais intensidade, treine com mais potência!",
     "preco": 76.99,
-    "description": "O melhor",
-    "id": 0
+    "description": "Precisa de um boost de energia tanto no código quanto no treino? A Creatina DevFuel é a escolha ideal! Seja para otimizar sua performance na academia ou para encarar aquele sprint final do projeto, a creatina vai te ajudar a aumentar o foco e a força. Mantenha o corpo e o cérebro sempre prontos para o próximo desafio. Codifique com mais intensidade, treine com mais potência!",
+    "id": 0,
+    "imagem": "https://cdn.awsli.com.br/2500x2500/49/49309/produto/231442297/creatina-i27guiin0r.png"
   },
   {
-    "name": "Suco de uva",
-    "preco": 16.99,
+    "name": "CodeWhey: a proteína que alimenta seu corpo e sua mente!",
+    "preco": 46.59,
     "description": "O melhor",
-    "id": 1
+    "id": 1,
+    "imagem": "https://images.tcdn.com.br/img/img_prod/1304890/100_whey_protein_900g_1107_1_3df744e481e3bfac43e9f2ffe6fd79ef.png"
   },
   {
-    "name": "Caldo verde",
-    "preco": 10.99,
+    "name": "Caixa da Inteligência:  Abra sua caixa e dê as boas-vindas ao React!",
+    "preco": 10.19,
     "description": "O melhor",
-    "id": 2
+    "id": 2,
+    "imagem": "https://tangerin.vteximg.com.br/arquivos/ids/162566-412-412/Caixa-de-Papelao-N7---20-x-15-x-15-semfundo.png?v=638161206874470000"
   },
   {
-    "name": "Bolo",
+    "name": "YoPro Dev: a proteína oficial para quem codifica e constrói o próprio futuro!",
     "preco": 18.09,
     "description": "O melhor",
-    "id": 3
+    "id": 3,
+    "imagem": "https://phygital-files.mercafacil.com/supermercado-real-de-niteroi/uploads/produto/iogurte_danone_yopro_pouch_160g_acai_banana_01e12220-fb99-459c-8518-226fc75290ec.png"
   },
   {
-    "name": "Pão",
-    "preco": 0.99,
+    "name": "Par de Halter Emborrachado - 5kg Consport",
+    "preco": 189.09,
     "description": "O melhor",
-    "id": 4
-  },
-  {
-    "name": "Cafe",
-    "preco": 2.69,
-    "description": "O melhor",
-    "id": 5
+    "id": 4,
+    "imagem": "https://0201.nccdn.net/1_2/000/000/177/5a1/peso-de-academia-png-2-263x193.png"
   }
 ]

@@ -20,6 +20,8 @@ export default function index() {
         <h2>{selecioando.name}</h2>
         <p>{selecioando.preco}</p>
         <p>{selecioando.id}</p>
+        <p>{selecioando.description}</p>
+
         <Link to="/cart" onClick={() => add()}>
           <button>Comprar</button>
         </Link>
