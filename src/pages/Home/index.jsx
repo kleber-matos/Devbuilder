@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 import Categorias from "../../components/Categorias";
 import Banner from "../../components/Banner";
 import Card from "../../components/Card";
+import Ofertas from "../../components/Ofertas";
 import * as S from "./styled";
+import Footer from "../../components/Footer";
 
 export default function index() {
   return (
@@ -17,6 +19,10 @@ export default function index() {
           ))}
         </div>
       </S.Produtos>
+
+      <Ofertas />
+
+      <Footer />
     </>
   );
 }
