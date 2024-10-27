@@ -1,10 +1,13 @@
 import Data from "../../data/data.json";
 import { Link } from "react-router-dom";
+import Categorias from "../../components/Categorias";
+import Banner from "../../components/Banner";
 
 export default function index() {
   return (
     <>
-      <h1>Home</h1>
+      <Categorias />
+      <Banner />
       <div>
         {Data.map((e, id) => (
           <div key={id} className="card">
