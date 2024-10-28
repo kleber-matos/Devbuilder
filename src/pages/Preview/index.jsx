@@ -1,32 +1,42 @@
+import * as S from "./styled";
 import React, { useContext } from "react";
+import { Link, useParams } from "react-router-dom";
+
+import { ReactNotifications } from "react-notifications-component";
+import "react-notifications-component/dist/theme.css";
+import { Store } from "react-notifications-component";
 import { FaUser } from "react-icons/fa";
 
 import Data from "../../data/data.json";
-import { Link, useParams } from "react-router-dom";
-import { CartContext } from "../../Context/CartContext";
 import Categoria from "../../components/Categorias";
-import * as S from "./styled";
-import Swal from "sweetalert2";
+import { CartContext } from "../../Context/CartContext";
 
 export default function index() {
   const { id } = useParams();
   const selecioando = Data.find((e) => e.id == id);
-
   const { produto, setProduto } = useContext(CartContext);
 
   const add = () => {
     setProduto(produto.concat(selecioando));
-    Swal.fire({
-      position: "top-end",
-      icon: "success",
-      title: "Adicionado ao carrinho",
-      showConfirmButton: false,
-      timer: 1500,
+
+    Store.addNotification({
+      title: "Sucesso!",
+      message: "Adicionado ao carrinho",
+      type: "success",
+      insert: "top",
+      container: "top-right",
+      animationIn: ["animate__animated", "animate__fadeIn"],
+      animationOut: ["animate__animated", "animate__fadeOut"],
+      dismiss: {
+        duration: 1000,
+        onScreen: true,
+      },
     });
   };
 
   return (
     <>
+      <ReactNotifications />
       <Categoria />
 
       <S.Section>

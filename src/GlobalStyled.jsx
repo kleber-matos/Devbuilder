@@ -11,4 +11,21 @@ export const GlobalStyled = createGlobalStyle`
     text-decoration: none;
 }
 
+.rnc__notification-content{
+    background-color: #e20001;
+    border-radius: 10px;
+    border: none;
+}
+
+.rnc__notification-item--success{
+    border-radius: 10px;
+}
+
+.rnc__notification-item--success .rnc__notification-timer{
+background-color: #a70a13;
+}
+
+.rnc__notification-item--success{
+    border: none;
+}
 `;
