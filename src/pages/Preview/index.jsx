@@ -2,6 +2,8 @@ import React, { useContext } from "react";
 import Data from "../../data/data.json";
 import { Link, useParams } from "react-router-dom";
 import { CartContext } from "../../Context/CartContext";
+import Categoria from "../../components/Categorias";
+import * as S from "./styled";
 
 export default function index() {
   const { id } = useParams();
@@ -15,20 +17,28 @@ export default function index() {
 
   return (
     <>
-      <h2>Preview</h2>
-      <div>
-        <img src={selecioando.imagem} alt="" />
-        <h2>{selecioando.name}</h2>
-        <p>{selecioando.preco}</p>
-        <p>{selecioando.id}</p>
-        <p>{selecioando.description}</p>
+      <Categoria />
 
-        <Link to="/cart" onClick={() => add()}>
-          <button>Comprar</button>
-        </Link>
+      <S.Section>
+        <S.Produto>
+          <div className="box">
+            <img src={selecioando.imagem} alt="" />
 
-        <button onClick={() => add()}>Adicionar ao carrinho</button>
-      </div>
+            <div>
+              <h2>{selecioando.name}</h2>
+              <p>R$ {selecioando.preco}</p>
+              <button onClick={() => add()}>COMPRAR</button>
+            </div>
+          </div>
+        </S.Produto>
+
+        <S.Descricao>
+          <div>
+            <h2>Descrição</h2>
+            <p>{selecioando.description}</p>
+          </div>
+        </S.Descricao>
+      </S.Section>
     </>
   );
 }

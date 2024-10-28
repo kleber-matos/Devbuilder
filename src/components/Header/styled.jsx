@@ -55,6 +55,23 @@ export const Menu = styled.ul`
   ${FlexBox}
   justify-content: space-between;
 
+  .iconCampra {
+    position: relative;
+
+    span {
+      text-align: center;
+      position: absolute;
+      height: 17px;
+      font-weight: 600;
+      top: 40%;
+      color: #494949;
+      font-size: 12px;
+      left: 13%;
+
+      width: 20px;
+    }
+  }
+
   .seach {
     ${FlexBox}
     width: 70%;
