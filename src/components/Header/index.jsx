@@ -11,7 +11,7 @@ import { CartContext } from "../../Context/CartContext";
 
 const Header = () => {
   //
-  const { setBusca, busca } = useContext(CartContext);
+  const { setBusca, busca, produto } = useContext(CartContext);
 
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => {
@@ -53,9 +53,10 @@ const Header = () => {
               <FaHeart className="icon" />
             </Link>
           </li>
-          <li>
+          <li className="iconCampra">
             <Link to="/cart">
               <FaShoppingBag className="icon" />
+              <span>{produto.length}</span>
             </Link>
           </li>
         </S.Menu>
