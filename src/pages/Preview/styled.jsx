@@ -74,3 +74,31 @@ export const Descricao = styled.div`
     margin-top: 15px;
   }
 `;
+
+export const Comentarios = styled.section`
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+
+  .box {
+    /* border: solid red; */
+    width: 80%;
+    max-width: 800px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  li {
+    margin: 10px 0 10px 0;
+  }
+
+  .user {
+    display: flex;
+    align-items: center;
+
+    p {
+      margin-left: 5px;
+    }
+  }
+`;
