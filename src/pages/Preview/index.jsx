@@ -46,7 +46,7 @@ export default function index() {
 
             <div>
               <h2>{selecioando.name}</h2>
-              <p>R$ {selecioando.preco}</p>
+              <p>R$ {selecioando.preco.toFixed(2).replace(".", ",")}</p>
               <button onClick={() => add()}>COMPRAR</button>
             </div>
           </div>
