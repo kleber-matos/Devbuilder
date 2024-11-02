@@ -1,5 +1,5 @@
 import React from "react";
-import Run from "../../assets/Run.png";
+import Run from "../../assets/run.png";
 import * as S from "./styled.jsx";
 
 export default function index() {
