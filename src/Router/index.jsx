@@ -7,6 +7,7 @@ import Novidades from "../pages/Novidades";
 import Suplementos from "../pages/Suplementos";
 import Acessorios from "../pages/Acessorios";
 import Busca from "../pages/Busca";
+import Footer from "../components/Footer";
 
 export default function Router() {
   return (
@@ -32,6 +33,7 @@ export default function Router() {
           <Route path="/preview/:id" element={<Preview />} />
           <Route />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );

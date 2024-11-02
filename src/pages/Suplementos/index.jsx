@@ -18,8 +18,6 @@ export default function index() {
           ))}
         </div>
       </S.Produtos>
-
-      <Footer />
     </>
   );
 }

@@ -35,7 +35,7 @@ export default function index() {
   };
 
   return (
-    <>
+    <S.Container>
       <ReactNotifications />
       <Categoria />
 
@@ -89,6 +89,6 @@ export default function index() {
           </ul>
         </div>
       </S.Comentarios>
-    </>
+    </S.Container>
   );
 }

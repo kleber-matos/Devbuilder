@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const Section = styled.section`
   /* padding: 20px 50px; */
 `;
+export const Container = styled.section`
+  min-height: 75vh;
+`;
 
 export const Produto = styled.section`
   display: flex;
@@ -20,6 +23,10 @@ export const Produto = styled.section`
     justify-content: space-between;
     margin-bottom: 20px;
 
+    @media (max-width: 850px) {
+      flex-direction: column;
+    }
+
     div {
       /* border: solid; */
       height: 20vh;
@@ -27,6 +34,9 @@ export const Produto = styled.section`
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      @media (max-width: 850px) {
+        width: 100%;
+      }
 
       button {
         background-color: transparent;
@@ -79,6 +89,7 @@ export const Comentarios = styled.section`
   margin-top: 40px;
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 
   .box {
     /* border: solid red; */

@@ -23,20 +23,19 @@ export default function index() {
       {searchFilter == "" ? (
         <Aviso sobre={"Produto não encontrado..."} />
       ) : (
-        <S.Text>
-          <h2>Ofertas do dia!</h2>
-        </S.Text>
+        <>
+          <S.Text>
+            <h2>Ofertas do dia!</h2>
+          </S.Text>
+          <S.Produtos>
+            <div className="box">
+              {searchFilter.map((e, id) => (
+                <Card key={id} name={e.name} imagem={e.imagem} id={e.id} />
+              ))}
+            </div>
+          </S.Produtos>
+        </>
       )}
-
-      <S.Produtos>
-        <div className="box">
-          {searchFilter.map((e, id) => (
-            <Card key={id} name={e.name} imagem={e.imagem} id={e.id} />
-          ))}
-        </div>
-      </S.Produtos>
-
-      <Footer />
     </>
   );
 }

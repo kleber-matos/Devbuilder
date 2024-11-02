@@ -4,7 +4,7 @@ import { MdRemoveShoppingCart } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 const Div = styled.div`
-  height: 57vh;
+  height: 72vh;
 
   width: 100%;
   display: flex;

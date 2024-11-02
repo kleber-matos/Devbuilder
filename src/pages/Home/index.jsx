@@ -23,8 +23,6 @@ export default function index() {
       </S.Produtos>
 
       <Ofertas />
-
-      <Footer />
     </>
   );
 }

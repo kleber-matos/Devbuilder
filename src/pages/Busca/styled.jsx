@@ -4,6 +4,7 @@ export const Produtos = styled.section`
   display: flex;
   justify-content: center;
   padding: 20px 50px;
+  min-height: 62vh;
   @media (max-width: 850px) {
     padding: 20px 10px;
   }
